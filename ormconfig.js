@@ -9,8 +9,8 @@ module.exports =
   username: process.env.DB_USER,
   password: process.env.DB_PASSWORD,
   database: process.env.DB_NAME,
-  synchronize: false,
+  synchronize: true, //create tables automatically
   logging: 'error',
-  entities: [resolve(__dirname, "src/models/magneto/**/*{.ts,.js}")],
-  migrations: [resolve(__dirname, "src/migrations/magneto/**/*{.ts,.js}")],
+  entities: [resolve(__dirname, "src/models/**/*{.ts,.js}")],
+  migrations: [resolve(__dirname, "src/migrations/**/*{.ts,.js}")],
 };
