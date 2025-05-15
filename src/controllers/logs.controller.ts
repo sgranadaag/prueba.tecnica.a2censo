@@ -1,8 +1,8 @@
 import fs from "fs";
 import path from "path";
-import { Controller, Get } from "routing-controllers";
+import { Get, JsonController } from "routing-controllers";
 
-@Controller("/logs")
+@JsonController("/logs")
 export default class LogsController {
   @Get("/")
   async searchLabelById() {
