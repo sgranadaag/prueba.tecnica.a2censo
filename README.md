@@ -28,3 +28,6 @@ API_TOKEN="54448c59-eec8-4d24-849a-7b0eeea1003d"
 - `POST /users/login`
 - `POST /users/signup`
 - `GET /logs`
+
+## Collections
+[collection.json](https://github.com/user-attachments/files/20226231/a2censo.postman_collection.json)
